@@ -10,6 +10,10 @@
 
 **Predicts football match outcomes across five major European leagues using ELO ratings, rolling form features, betting market probabilities, and head-to-head statistics — with SHAP explainability and a three-layer anti-leakage architecture.**
 
+### 🚀 [Try the Live Demo →](https://huggingface.co/spaces/bk1210/Football-Match-Outcome-Prediction)
+
+[![Open in HuggingFace Spaces](https://img.shields.io/badge/🤗-Live%20Demo%20on%20HuggingFace%20Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/bk1210/Football-Match-Outcome-Prediction)
+
 [Features](#-features) • [How It Works](#-how-it-works) • [Results](#-results) • [Installation](#-installation) • [Usage](#-usage) • [Architecture](#-architecture) • [Tech Stack](#-tech-stack) • [Contact](#-contact)
 
 </div>
@@ -62,6 +66,18 @@ Four complementary feature signals are combined:
 
 ## 🖥️ Demo
 
+### 🔴 Live App
+> **[https://huggingface.co/spaces/bk1210/Football-Match-Outcome-Prediction](https://huggingface.co/spaces/bk1210/Football-Match-Outcome-Prediction)**
+> Select any two teams from 259 available clubs and get instant match outcome prediction with win probabilities, ELO ratings, and expected points.
+
+### Example Predictions
+
+| Match | Predicted Winner | Home Win % | Draw % | Away Win % |
+|---|---|---|---|---|
+| Real Madrid CF vs Bournemouth | 🏆 Real Madrid CF | 73.6% | 11.9% | 14.5% |
+| Manchester City vs Arsenal | 🏆 Manchester City | ~65% | ~18% | ~17% |
+| Barcelona vs Atletico Madrid | 🏆 Barcelona | ~58% | ~22% | ~20% |
+
 ### Model vs ELO Baseline
 ```
 Gradient Boosting → Accuracy: 0.55 | Draw Recall: 0.25 | Exp. Pts MAE: 0.91
@@ -87,8 +103,8 @@ ELO Baseline      → Accuracy: 0.50 | Draw Recall: 0.04 | Exp. Pts MAE: 1.05
 
 ### Step 1 — Clone the Repository
 ```bash
-git clone https://github.com/bk1210/football-match-prediction.git
-cd football-match-prediction
+git clone https://github.com/bk1210/Football-Match-Outcome-Prediction-.git
+cd Football-Match-Outcome-Prediction-
 ```
 
 ### Step 2 — Install Dependencies
@@ -170,7 +186,7 @@ SHAP PermutationExplainer
 ### Project Structure
 
 ```
-football-match-prediction/
+Football-Match-Outcome-Prediction-/
 │
 ├── Football_match_prediction.ipynb    # Full pipeline
 ├── requirements.txt                   # Python dependencies
@@ -221,6 +237,7 @@ football-match-prediction/
 | SHAP | PermutationExplainer, global + local attribution |
 | Pandas / NumPy | Feature engineering, rolling windows, ELO |
 | Matplotlib / Seaborn | EDA, SHAP plots, confusion matrix |
+| Streamlit | Live demo web app |
 
 ---
 
@@ -290,6 +307,8 @@ Supervised by **Kirubavathi G** — Department of Mathematics, Amrita Vishwa Vid
 <div align="center">
 
 **⭐ If you found this project useful, please give it a star on GitHub! ⭐**
+
+[![Open in HuggingFace Spaces](https://img.shields.io/badge/🤗-Try%20Live%20Demo-blue?style=for-the-badge)](https://huggingface.co/spaces/bk1210/Football-Match-Outcome-Prediction)
 
 *Built with ❤️ for multi-league football analytics*
 
