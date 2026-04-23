@@ -310,6 +310,6 @@ Supervised by **Kirubavathi G** — Department of Mathematics, Amrita Vishwa Vid
 
 [![Open in HuggingFace Spaces](https://img.shields.io/badge/🤗-Try%20Live%20Demo-blue?style=for-the-badge)](https://huggingface.co/spaces/bk1210/Football-Match-Outcome-Prediction)
 
-*Built with ❤️ for multi-league football analytics*
+*Built with ❤️ for  football and data analytics*
 
 </div>
