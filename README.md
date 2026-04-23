@@ -75,8 +75,8 @@ Four complementary feature signals are combined:
 | Match | Predicted Winner | Home Win % | Draw % | Away Win % |
 |---|---|---|---|---|
 | Real Madrid CF vs Bournemouth | 🏆 Real Madrid CF | 73.6% | 11.9% | 14.5% |
-| Manchester City vs Arsenal | 🏆 Manchester City | ~65% | ~18% | ~17% |
-| Barcelona vs Atletico Madrid | 🏆 Barcelona | ~58% | ~22% | ~20% |
+| Manchester City vs Arsenal | 🏆 Manchester City | 47.6% | 37.0% | 15.3% |
+| Barcelona vs Atletico Madrid | 🏆 Barcelona | 42.5% | 26.5% | 31.0% |
 
 ### Model vs ELO Baseline
 ```
